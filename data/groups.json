@@ -1,0 +1,44 @@
+{
+    "cro": {
+        "id": "709e4907-21ed-4a4b-af87-753e7004fe7a",
+        "name": "cro",
+        "members": [
+            "filip",
+            "natalka",
+            "ania",
+            "klaudia"
+        ],
+        "expenses": [
+            {
+                "id": "b64a109e-0f4f-4118-97d5-837b4406bfff",
+                "group_id": "709e4907-21ed-4a4b-af87-753e7004fe7a",
+                "description": "winko",
+                "amount": 6.42,
+                "paid_by": "filip",
+                "date": "2024-10-03 10:21:41.558153",
+                "involved_members": [
+                    "filip",
+                    "natalka",
+                    "ania",
+                    "klaudia"
+                ],
+                "splits": {
+                    "filip": 1.605,
+                    "natalka": 1.605,
+                    "ania": 1.605,
+                    "klaudia": 1.605
+                },
+                "type": "expense"
+            },
+            {
+                "id": "603761eb-12f1-420a-8fcc-06ea50dd5bf8",
+                "group_id": "709e4907-21ed-4a4b-af87-753e7004fe7a",
+                "amount": 1.6,
+                "payer": "natalka",
+                "payee": "filip",
+                "date": "2024-10-03 10:21:56.758111",
+                "type": "payment"
+            }
+        ]
+    }
+}
